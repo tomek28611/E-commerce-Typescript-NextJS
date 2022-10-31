@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .headerLink {
+        @apply  opacity-75 transition hover:opacity-100;
+    }
+
+    .headerIcon {
+        @apply h-6 opacity-75 transition hover:opacity-100;
+    }
+}
