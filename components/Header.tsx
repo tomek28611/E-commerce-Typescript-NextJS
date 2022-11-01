@@ -10,13 +10,12 @@ function Header() {
     <header className="sticky top-0 flex w-full items-center justify-between bg-[#E7ECEE]">
       <div className="flex items-center justify-center md:w-1/5">
         <Link href="/">
-        <div className="relative h-50 w-40 cursor-pointer opacity-75 transition hover:opacity-100">
+        <div className="">
             <Image 
-            src="https://www.pngitem.com/pimgs/m/485-4852378_sample-logo-png-transparent-png.png" 
-            width={100} 
-            height={100} 
-            layout="fill" 
-            objectFit="contain" />
+              src="https://www.pngitem.com/pimgs/m/485-4852378_sample-logo-png-transparent-png.png"
+              width={100}
+              height={100} alt={""}            
+            />
         </div>
         </Link>
         </div>
